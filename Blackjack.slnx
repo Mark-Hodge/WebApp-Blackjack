@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/backend/">
+    <File Path="backend/Directory.Build.props" />
+  </Folder>
+  <Folder Name="/backend/src/">
+    <Project Path="backend/src/Blackjack.Api/Blackjack.Api.csproj" />
+    <Project Path="backend/src/Blackjack.Application/Blackjack.Application.csproj" />
+    <Project Path="backend/src/Blackjack.Domain/Blackjack.Domain.csproj" />
+    <Project Path="backend/src/Blackjack.Infrastructure/Blackjack.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/backend/tests/">
+    <Project Path="backend/tests/Blackjack.Api.IntegrationTests/Blackjack.Api.IntegrationTests.csproj" />
+    <Project Path="backend/tests/Blackjack.Application.Tests/Blackjack.Application.Tests.csproj" />
+    <Project Path="backend/tests/Blackjack.Domain.Tests/Blackjack.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
